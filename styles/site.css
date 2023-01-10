@@ -26,3 +26,16 @@ header div:nth-child(2){
     margin: 0 auto;
     width: 800px;
 }
+
+footer{
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+}
+
+main h2{
+    text-align: center;
+}
