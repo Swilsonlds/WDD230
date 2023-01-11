@@ -17,6 +17,7 @@ header{
 
 header img{
     margin: 1rem;
+    border: 2px black solid;
 }
 
 header h1{
