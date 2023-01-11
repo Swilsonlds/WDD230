@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
 header{
     display: flex;
     align-items: center;
-    background-color: blue;
+    background-color: darkblue;
     color: white;
     border: 2px black solid;
+    border-radius: 10px;
+    margin-top: 1em;
 }
 
 header img{
@@ -29,11 +34,13 @@ header div:nth-child(2){
 
 footer{
     align-items: center;
-    background-color: blue;
+    background-color: darkblue;
     color: white;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
+    border-radius: 10px;
+
 }
 
 main h2{
