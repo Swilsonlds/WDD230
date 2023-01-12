@@ -1,0 +1,9 @@
+@media screen and (max-width: 640px){
+    
+    ul li{
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+    
+}
