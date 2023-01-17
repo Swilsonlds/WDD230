@@ -21,7 +21,7 @@ header{
     border: 2px black solid;
     margin: 20px 20px;
     border-radius: 10px;
-    padding: 1em;
+    padding: .5em;
 }
 
 header h1{
@@ -41,6 +41,7 @@ header h2{
     max-width: 100%;
     color: white;
     padding: .35em;
+    margin: 0;
 }
 
 footer{
