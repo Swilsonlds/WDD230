@@ -59,6 +59,10 @@ nav ul li{
     text-align: center;
 }
 
+.active{
+    background-color: rgb(130, 172, 142);
+}
+
 main{
     padding:.75rem;
 }
