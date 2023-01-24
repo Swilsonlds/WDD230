@@ -30,7 +30,7 @@ nav{
     background-color: rgb(130, 172, 142);
     max-width: 832px; 
     min-width: 600px;
-    margin: 0;
+    margin: 0 auto;
     border: 1px solid black;
 }
 
