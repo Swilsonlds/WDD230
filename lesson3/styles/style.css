@@ -63,19 +63,19 @@ nav ul li{
     text-align: center;
 }
 
-#navbar-active {
+#navbar-active{
     width: 80%;
     background-color: rgb(130, 172, 142);
     padding: 1rem;
 }
 
-#navbar-normal {
+#navbar-normal{
     width: 80%;
     background-color: darkgreen;
     padding: 1rem;
 }
 
-#site-header {
+#site-header{
     width: 80%;
     background-color: rgb(130, 172, 142);
     padding: 1rem;
