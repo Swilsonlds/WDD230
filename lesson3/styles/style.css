@@ -27,7 +27,7 @@ header h1{
 }
 
 nav{
-    background-color: rgb(130, 172, 142);
+    background-color: darkgreen;
     max-width: 832px; 
     min-width: 600px;
     margin: 0 auto;
@@ -38,10 +38,11 @@ nav a{
   display: block;
   padding: 0.5rem;
   text-decoration: none;
+  color: black;
 }
 
 nav a:hover{
-    background-color: darkgreen;
+    background-color:rgb(130, 172, 142);
 }
 
 nav ul{
