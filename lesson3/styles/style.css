@@ -63,6 +63,19 @@ nav ul li{
     background-color: rgb(130, 172, 142);
 }
 
+#design{
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+
 main{
     padding:.75rem;
 }
