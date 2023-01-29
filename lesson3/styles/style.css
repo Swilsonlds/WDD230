@@ -42,11 +42,12 @@ nav a{
   display: block;
   padding: 0.5rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 nav a:hover{
     background-color:rgb(130, 172, 142);
+    color: black;
 }
 
 nav ul{
@@ -83,6 +84,7 @@ nav ul li{
 
 .active{
     background-color: rgb(130, 172, 142);
+    color: black;
 }
 
 #design{
@@ -109,9 +111,39 @@ footer{
     border: 2px black solid;
 }
 
+/* hamburger */
+
+#navbar{
+    display: none;
+}
+
+#menu-open{
+    display: none;
+}
+
+#menu-close{
+    display: inline;
+}
+
+#navbar.menu-active{
+    display: flex;
+}
+
+#menu-open.menu-active{
+    display: inline;
+}
+
+#menu-close.menu-active{
+    display: none;
+}
+
 @media screen and (min-width: 640px) {
     nav ul {
       flex-direction: row;
     }
+
+    
+
+
 }
 
