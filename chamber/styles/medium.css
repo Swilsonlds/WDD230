@@ -1,0 +1,38 @@
+@media screen and (min-width: 640px){
+
+    main{ 
+        display: grid;
+        grid-template-areas: "a a a"
+                         "b b b"
+                         "c c c"
+                         "d d d"
+                         "e e f";
+    } 
+    .Weather{
+        grid-area:f;
+    }
+
+    .Hero{
+        grid-area: a;
+    }
+
+    .News{
+        grid-area: b;
+    }
+
+    .Spotlight{
+        grid-area: c;
+        display: flex;
+    }
+
+    .Join{
+        display: block;
+        grid-area: d;
+    }
+
+    .Event{
+        grid-area: e;
+    }
+
+}
+
