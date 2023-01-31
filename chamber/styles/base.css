@@ -5,7 +5,7 @@ body{
 }
 
 header, footer{
-    background-color: rgb(58, 150, 58);
+    background-color: rgb(109, 153, 109);
     border: 1px solid black;
 }
 
@@ -21,8 +21,13 @@ header, footer{
     text-align: center;
 }
 
+.date{
+    background-color: rgb(65, 103, 65);
+    padding: 7px;
+}
+
 body{
-    background-color: rgb(172, 216, 172);
+    background-color: rgb(151, 166, 151);
 }
 
 .Hero{
@@ -109,3 +114,8 @@ body{
 .footer-map{
     grid-template-columns: 3/4;
 }
+
+nav ul{
+    display: none;
+}
+
