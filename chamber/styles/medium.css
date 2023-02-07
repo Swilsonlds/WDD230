@@ -36,6 +36,15 @@
 
     nav ul{
         display: flex;
+        flex-direction: row;
+    }
+
+    #hamburger-button{
+        display: none;
+    }
+
+    .hide{
+        display: flex;
     }
 
 }

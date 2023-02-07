@@ -23,7 +23,56 @@ header, footer{
 
 .date{
     background-color: rgb(65, 103, 65);
-    padding: 7px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav{
+    background-color: darkgreen;
+    width: 100%;
+    margin: 0;
+    border: 1px solid black;
+}
+
+nav a{
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+    background-color:rgb(130, 172, 142);
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+nav ul li{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-active{
+    width: 80%;
+    background-color: rgb(130, 172, 142);
+    padding: 1rem;
+}
+
+#navbar-normal{
+    width: 80%;
+    background-color: darkgreen;
+    padding: 1rem;
 }
 
 body{
@@ -113,9 +162,5 @@ body{
 
 .footer-map{
     grid-template-columns: 3/4;
-}
-
-nav ul{
-    display: none;
 }
 
