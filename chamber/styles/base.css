@@ -91,6 +91,27 @@ nav ul li{
     color: black;
 }
 
+.herodiv{
+    margin: 10px auto;
+    position: relative;
+}
+
+.picbutton button{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    background-color: rgb(49, 22, 221);
+    color: white;
+    padding: 25px;
+    font-weight: 800;
+}
+
+.welcometo{
+    position: absolute;
+    top: 7%;
+    left: 5%; 
+}
+
 body{
     background-color: rgb(151, 166, 151);
 }
@@ -100,9 +121,10 @@ body{
     padding: 10px;
 }
 
-.Hero img{
-    width: 100%;
+.herodiv img{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .Event{

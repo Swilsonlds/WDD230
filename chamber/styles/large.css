@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1400px){
     main{
         grid-template-areas: "a b b c"
                              "d b b c"
