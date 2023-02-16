@@ -9,7 +9,7 @@ header, footer{
     border: 1px solid black;
 }
 
-.hide{
+.hide-meeting{
     display: none;
 }
 
@@ -19,6 +19,13 @@ header, footer{
     align-items: center;
     justify-items: center;
     text-align: center;
+}
+
+#meeting p{
+    background-color: rgb(153, 194, 71);
+    text-align: center;
+    padding: 2.5%;
+    margin: 0;
 }
 
 .date{
@@ -73,6 +80,11 @@ nav ul li{
     width: 80%;
     background-color: darkgreen;
     padding: 1rem;
+}
+
+.active{
+    background-color:rgb(130, 172, 142);
+    color: black;
 }
 
 body{
