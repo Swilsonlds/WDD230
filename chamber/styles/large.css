@@ -42,5 +42,11 @@
         display: none;
     }
 
+    /* DISCOVERY PAGE */
+    .discovery-box{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 
 }

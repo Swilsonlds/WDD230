@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+table{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+th:nth-child(1){
+    font-size: 1.25em;
+}
+
+thead tr{
+    background-color: rgb(171, 171, 171);
+}
+
+thead tr:nth-child(2) th:nth-child(1){
+    background-color: rgb(241, 241, 244);
+    border-top: 1px rgb(140, 184, 210) solid;
+}
+
+thead tr:nth-child(2) th{
+    background-color: rgb(220, 220, 220);
+}
+
+tr{
+    /* border: 1px black solid; */
+    background-color: rgb(208, 223, 231);
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(254, 254, 253);
+}
+
+td, th{
+    border: 1px grey solid;
+    padding: 1rem;
+    text-align: center;
+}
+
+caption{            
+    padding: 1rem;
+    caption-side: bottom;
+}

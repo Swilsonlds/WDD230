@@ -9,7 +9,7 @@
                          "e e f";
     } 
     .Weather{
-        grid-area:f;
+        grid-area: f;
     }
 
     .Hero{
@@ -47,6 +47,6 @@
         display: flex;
     }
 
-
+    /* DISCOVERY PAGE */
 }
 
