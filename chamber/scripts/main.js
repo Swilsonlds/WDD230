@@ -25,3 +25,5 @@ function setWindChill(windspeed, temp){
 }
 
 setWindChill(4, 33);
+
+// Days since last visit
