@@ -1,5 +1,5 @@
 @media screen and (min-width: 1100px){
-    main{
+    .main-index{
         grid-template-areas: "a b b c"
                              "d b b c"
                              "e f f c";
@@ -43,10 +43,27 @@
     }
 
     /* DISCOVERY PAGE */
-    .discovery-box{
-        flex-direction: row;
-        flex-wrap: wrap;
+    .discovery1{
+        grid-area: "b";
     }
 
+    .discovery2{
+        grid-area: "a";
+    }
 
+    .discovery3{
+        grid-area: "c";
+    }
+
+    .discovery4{
+        grid-area: "d";
+    }
+
+    .discovery5{
+        grid-area: "e";
+    }
+
+    .discovery img:hover{
+        border:5px solid #ccc;
+    }
 }
