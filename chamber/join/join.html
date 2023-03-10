@@ -37,44 +37,40 @@
             </button>
             <ul id="navUl" class="hide">
                 <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="discover.html">Discover</a></li>
+                <li><a href="../discover/discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="../join/join.html">Join</a></li>
+                <li><a  class="active" href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="date"><p></p></div>
     </header>
-    <main class="main-discover">
-        <div class="discovery discovery1">
-            <img src="images/image1.jpg" loading="lazy" width="440" alt="pic1">
-            <p>Mountain Creek began as a humble logging town back in the early 1800's. In the year 1882 Buckley was officially founded</p>
-        </div>
-
-        <div class="discovery discovery2">
-            <img src="images/image2.jpg" loading="lazy" width="440" alt="pic2">
-            <p>As of the 2020 census, the town has a population of 5,114 individuals. </p>
-        </div>
-
-        <div class="discovery discovery3">
-            <img src="images/image3.jpg" loading="lazy" width="440" alt="pic3">
-            <p>Another one of Mountain Creek's defining features is its unrivaled view of Mt.Rainier</p>
-        </div>
-
-        <div class="discovery discovery4">
-            <img src="images/image4.jpg" loading="lazy" width="440" alt="pic4">
-            <p>One of the staples of Mountain Creek is it's annual log show. Local residents and visitors from afar gather in large numbers to celebrate the event.</p>
-        </div>
-
-        <div class="discovery discovery5">
-            <img src="images/image5.jpg" loading="lazy" width="440" alt="pic5">
-            <p>The Wally's drive-in has been a hallmark of Mountain Creek for nearly 60 years! Though the name and exterior have changed, the same small-town diner feel remains.</p>
-        </div>
-
-        <div class="discovery discovery6">
-            <img src="images/image6.jpg" loading="lazy" width="440" alt="pic6">
-            <p>Mountain Creek is only a 15 minute drive from the beautiful Mount Rainier National Park. There, tourists may enjoy hundreds of hiking trails, fishing spots, and campsites.</p>
-        </div>
+    <main class="main-join">
+      <h1>Chamber Membership Application</h1>
+      <form method="get" action="thanks.html">
+          <fieldset>  
+              <label class="top">First Name* <input type="text" name="fname" required></label>
+              <label class="top">Last Name* <input type="text" name="lname" required></label>
+              <label class="top">Title <input type="text" name="title" pattern="^[a-zA-Z0-9\s]{7,}$"></label>
+              <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+              <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
+              <label class="top">Business Name* <input type="text" name="businessName"></label>
+  
+              <h3>Membership Level</h3>
+              <div>Membership Level</div>
+              <label class="sbs"><input type="radio" name="membershipLevel" value="non-profit"> Non-Profit</label>
+              <label class="sbs"><input type="radio" name="membershipLevel" value="bronze"> Bronze</label>
+              <label class="sbs"><input type="radio" name="membershipLevel" value="silver"> Silver</label>
+              <label class="sbs"><input type="radio" name="membershipLevel" value="gold"> Gold</label>
+          </fieldset>
+  
+          <fieldset>
+          </fieldset>
+  
+          <input type="submit" value="Join the Chamber!" class="submitBtn">
+  
+      </form>
+  
     </main>
     <footer>
         <div class="footer-top">
