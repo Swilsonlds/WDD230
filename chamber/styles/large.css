@@ -43,26 +43,6 @@
     }
 
     /* DISCOVERY PAGE */
-    .discovery1{
-        grid-area: "b";
-    }
-
-    .discovery2{
-        grid-area: "a";
-    }
-
-    .discovery3{
-        grid-area: "c";
-    }
-
-    .discovery4{
-        grid-area: "d";
-    }
-
-    .discovery5{
-        grid-area: "e";
-    }
-
     .discovery img:hover{
         border:5px solid #ccc;
     }
