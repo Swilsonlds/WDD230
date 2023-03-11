@@ -40,3 +40,9 @@ else{
     visitspan.textContent = daysSinceLastVisit;
 }
 localStorage.setItem("lastVisit", today.toLocaleDateString());
+
+// Date page loaded for join page
+dateAccessed = new Date();
+
+hiddenField = document.querySelector(".hidden-field").value;
+hiddenField = dateAccessed;

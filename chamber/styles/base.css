@@ -241,3 +241,82 @@ img { max-width: 100%; height: auto; }
     text-align: center;
     margin: 0 auto;
 } 
+
+ /* JOIN US */
+
+form fieldset{
+    margin: 2rem 2rem;
+    border: 1px solid black;
+    max-width: 75%;
+    background-color:rgb(246, 241, 216) ;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    /* color: lightblue; */
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 17.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: 2px solid black;
+    background-color: rgb(248, 248, 107);
+    color:black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    min-width: 1rem;
+    max-width: 20rem;
+}
+
+.first-fieldset h3{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.second-fieldset {
+    margin-top: 0;
+}
+
+.thanks-box{
+    border: 2px solid black;
+    background-color: rgb(246, 241, 216);
+    text-align: center;
+    padding: 1rem;
+    margin: 5rem;
+}
+/* form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+} */

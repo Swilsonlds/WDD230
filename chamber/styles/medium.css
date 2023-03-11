@@ -1,6 +1,6 @@
 @media screen and (min-width: 800px){
 
-    main{ 
+    .main-index, .main-discover{ 
         display: grid;
         grid-template-areas: "a a a"
                          "b b b"
@@ -50,6 +50,32 @@
     /* DISCOVERY PAGE */
     .discovery img:hover{
         border:5px solid #ccc;
+    }
+
+    /* JOIN PAGE */
+    .main-join{
+        display: flexbox;
+    }
+
+    form{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: "a b";
+        
+    }
+    form fieldset{
+        max-width: 100%;
+    }
+
+    .first-fieldset{
+        display: inline-block;
+    }
+
+    .second-fieldset{
+        display: inline-block;
+        margin-top: 2rem;
+
     }
 
 }
