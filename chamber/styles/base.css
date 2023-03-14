@@ -313,6 +313,10 @@ form input.submitBtn {
     padding: 1rem;
     margin: 5rem;
 }
+
+#description{
+    height:6rem;
+}
 /* form label.top input:required {
     border-left: red solid 6px;
 }
