@@ -324,3 +324,28 @@ form input.submitBtn {
 form label.top input:required:valid {
     border-left: green solid 6px;
 } */
+
+ /* DIRECTORY */
+.buttons-div{
+    text-align: center;
+    padding:2rem;
+}
+
+.buttons-div button{
+    height: 3rem;
+    width: 5rem;
+    font-size: 150%;
+    margin: 0 2rem;
+}
+
+ .directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.directory-cards section{
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
