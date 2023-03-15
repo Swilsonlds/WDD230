@@ -1,0 +1,92 @@
+{
+    "businesses": [
+    {
+        "businessName" : "Joe's Crab Shack",
+        "streetAddress" : "124 Main Street",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/joesCrabShack.jpg",
+        "websiteURL" : "https://www.joescrabshack.com",
+        "membershipLevel" : "gold"
+    },
+
+    {
+        "businessName" : "Mountain Creek Family Clinic",
+        "streetAddress" : "85 Main Street",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/mountainCreekFamilyClinic.png",
+        "websiteURL" : "https://www.mcfamilyclinic.com",
+        "membershipLevel" : "silver"
+
+    },
+
+    {
+        "businessName" : "Craft Heaven",
+        "streetAddress" : "16 Sycamore St.",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/craftHeaven.jpg",
+        "websiteURL" : "https://www.craftheaven.com",
+        "membershipLevel" : "silver"
+
+    },
+
+    {
+        "businessName" : "Ichiban Teriyaki",
+        "streetAddress" : "406 Evergreen Ln.",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/ichibanTeriyaki.jpg",
+        "websiteURL" : "https://www.ichibanteriyaki.com",
+        "membershipLevel" : "gold"
+
+    },
+
+    {
+        "businessName" : "Michelle's Outdoor Gear",
+        "streetAddress" : "6 Main Street",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/michellesOutdoorGear.jpg",
+        "websiteURL" : "https://www.michellesoutdoorgear.com",
+        "membershipLevel" : "silver"
+
+    },
+
+    {
+        "businessName" : "Sam's Salon",
+        "streetAddress" : "42 Main Street",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/samsSalon.jpg",
+        "websiteURL" : "https://www.samssalon.com",
+        "membershipLevel" : "gold"
+
+    },
+
+    {
+        "businessName" : "Omni Healthcare",
+        "streetAddress" : "240 Evergreen Ln.",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/omniHealthcare.jpg",
+        "websiteURL" : "https://www.omnihealthcare.com",
+        "membershipLevel" : "gold"
+
+    },
+
+    {
+        "businessName" : "Burgertown",
+        "streetAddress" : "18 Main Street",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/burgertown.jpg",
+        "websiteURL" : "https://www.burgertown.com",
+        "membershipLevel" : "gold"
+
+    },
+
+    {
+        "businessName" : "Gary's Game Shop",
+        "streetAddress" : "14 Sycamore St.",
+        "cityStateZip" : "Mountain Creek, WA, 98321",
+        "imgURL" : "images/garysGameShop.jpg",
+        "websiteURL" : "https://www.garysgameshop.com",
+        "membershipLevel" : "gold"
+
+    }
+]
+}
