@@ -5,7 +5,7 @@
         "streetAddress" : "124 Main Street",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/joesCrabShack.jpg",
-        "websiteURL" : "https://www.joescrabshack.com",
+        "websiteURL" : "www.joescrabshack.com",
         "membershipLevel" : "gold"
     },
 
@@ -14,7 +14,7 @@
         "streetAddress" : "85 Main Street",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/mountainCreekFamilyClinic.png",
-        "websiteURL" : "https://www.mcfamilyclinic.com",
+        "websiteURL" : "www.mcfamilyclinic.com",
         "membershipLevel" : "silver"
 
     },
@@ -24,7 +24,7 @@
         "streetAddress" : "16 Sycamore St.",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/craftHeaven.jpg",
-        "websiteURL" : "https://www.craftheaven.com",
+        "websiteURL" : "www.craftheaven.com",
         "membershipLevel" : "silver"
 
     },
@@ -34,7 +34,7 @@
         "streetAddress" : "406 Evergreen Ln.",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/ichibanTeriyaki.jpg",
-        "websiteURL" : "https://www.ichibanteriyaki.com",
+        "websiteURL" : "www.ichibanteriyaki.com",
         "membershipLevel" : "gold"
 
     },
@@ -44,7 +44,7 @@
         "streetAddress" : "6 Main Street",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/michellesOutdoorGear.jpg",
-        "websiteURL" : "https://www.moutdoorgear.com",
+        "websiteURL" : "www.moutdoorgear.com",
         "membershipLevel" : "silver"
 
     },
@@ -54,7 +54,7 @@
         "streetAddress" : "42 Main Street",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/samsSalon.jpg",
-        "websiteURL" : "https://www.samssalon.com",
+        "websiteURL" : "www.samssalon.com",
         "membershipLevel" : "gold"
 
     },
@@ -64,7 +64,7 @@
         "streetAddress" : "240 Evergreen Ln.",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/omniHealthcare.jpg",
-        "websiteURL" : "https://www.omnihealthcare.com",
+        "websiteURL" : "www.omnihealthcare.com",
         "membershipLevel" : "gold"
 
     },
@@ -74,7 +74,7 @@
         "streetAddress" : "18 Main Street",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/burgertown.jpg",
-        "websiteURL" : "https://www.burgertown.com",
+        "websiteURL" : "www.burgertown.com",
         "membershipLevel" : "gold"
 
     },
@@ -84,7 +84,7 @@
         "streetAddress" : "14 Sycamore St.",
         "cityStateZip" : "Mountain Creek, WA, 98321",
         "imgURL" : "images/garysGameShop.jpg",
-        "websiteURL" : "https://www.garysgameshop.com",
+        "websiteURL" : "www.garysgameshop.com",
         "membershipLevel" : "gold"
 
     }
