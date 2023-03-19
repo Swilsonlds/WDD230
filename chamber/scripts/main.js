@@ -15,11 +15,11 @@ const weatherDesc = document.querySelector('#weather-description');
 
 
 const key = 'e8ca06ebca150cdbf1174d606c6f32c0';
-const url = 'https://api.openweathermap.org/data/2.5/weather?zip=98321,us&appid=e8ca06ebca150cdbf1174d606c6f32c0&units=imperial';
+const weather_url = 'https://api.openweathermap.org/data/2.5/weather?zip=98321,us&appid=e8ca06ebca150cdbf1174d606c6f32c0&units=imperial';
 
 async function apiFetch() {
     try {
-      const response = await fetch(url);
+      const response = await fetch(weather_url);
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
@@ -68,7 +68,44 @@ function displayResults(weatherData) {
     setWindChill(windspeed1, temperature);
   }
 
- 
+const business_url = "directory/data/businesses.json";
+
+async function getBusinessData() {
+    const response = await fetch(business_url);
+    if (response.ok) {
+      const data = await response.json();
+      displayBusinesses1(data.businesses);
+      console.table(data.businesses);
+    } else {
+      console.error("There was an error loading the data.");
+      const cards = document.querySelector(".directory-cards");
+      cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
+    }
+  }
+const displayBusinesses1 = (businesss) => {
+  let x = Math.floor((Math.random() * 9));
+  let y = Math.floor((Math.random() * 9));
+  let z  = Math.floor((Math.random() * 9));
+
+  console.log(x);
+
+  document.querySelector("#sp1name").textContent = businesss[x].businessName;
+  document.querySelector("#sp1image").src = `./directory/${businesss[x].imgURL}`;
+  document.querySelector("#sp1web").textContent = businesss[x].websiteURL;
+
+  document.querySelector("#sp2name").textContent = businesss[y].businessName;
+  document.querySelector("#sp2image").src = `./directory/${businesss[y].imgURL}`;
+  document.querySelector("#sp2web").textContent = businesss[y].websiteURL;
+
+  document.querySelector("#sp3name").textContent = businesss[z].businessName;
+  document.querySelector("#sp3image").src = `./directory/${businesss[z].imgURL}`;
+  document.querySelector("#sp3web").textContent = businesss[z].websiteURL;
+
+}
+
+getBusinessData();
+
+  
 
 
 // Days since last visit
