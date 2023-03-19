@@ -78,8 +78,8 @@ async function getBusinessData() {
       console.table(data.businesses);
     } else {
       console.error("There was an error loading the data.");
-      const cards = document.querySelector(".directory-cards");
-      cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
+      // const cards = document.querySelector(".directory-cards");
+      // cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
     }
   }
 const displayBusinesses1 = (businesss) => {
