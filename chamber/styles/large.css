@@ -7,6 +7,7 @@
 
     .Event{
         grid-area: a;
+        text-align: center;
     }
 
     .Hero{
@@ -24,10 +25,12 @@
 
     .Join{
         grid-area: e;
+        text-align: center;
     }
 
     .News{
         grid-area: f;
+        text-align: center;
     }
 
     .Spotlight3{
