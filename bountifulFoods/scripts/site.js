@@ -68,19 +68,18 @@ async function apiFetchFruit() {
     } catch (error) {
         console.log(error);
     }
-  }
+}
 
 function PopulateFruitResults(data) {
   fruitSelection = document.querySelector(".fruit1");
   fruitSelection2 = document.querySelector(".fruit2");
   fruitSelection3 = document.querySelector(".fruit3");
 
-  for(let i=0; i<41; i++){
+  for(let i=0; i<40; i++){
       let newFruit = document.createElement("option");
       let newFruit2 = document.createElement("option");
       let newFruit3 = document.createElement("option");
       fruitName = data[i].name;
-      console.log(fruitName);
       fruitSelection.appendChild(newFruit);
       fruitSelection2.appendChild(newFruit2);
       fruitSelection3.appendChild(newFruit3);
@@ -90,12 +89,35 @@ function PopulateFruitResults(data) {
       newFruit2.text = fruitName;
       newFruit3.value = fruitName;
       newFruit3.text = fruitName;
-      
   }
 }
 
 apiFetchFruit()
 
 // KEEPING TRACK
+drinksMade = document.querySelector("#drinksmade");
+drinksMade.innerHTML = localStorage.getItem("drinkCount")
+
+if (!localStorage.getItem("drinkCount")){
+  drinksMade.innerHTML = 0;
+} else{
+  drinksMade.innerHTML = localStorage.getItem("drinkCount");
+}
+
+function KeepingTrack() {
+  if(!localStorage.getItem("drinkCount")) {
+    localStorage.setItem("drinkCount", "1");
+    drinksMade.innerHTML = localStorage.getItem("drinkCount");
+
+
+  } else {
+    let newCount = Number(localStorage.getItem("drinkCount")) + 1;
+    localStorage.setItem("drinkCount", String(newCount));
+    drinksMade.innerHTML = localStorage.getItem("drinkCount");
+  }
+
+}
+
+
 
 

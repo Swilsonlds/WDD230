@@ -163,7 +163,7 @@ ul{
     position: relative;
 }
 
-.picbutton button{
+.picbutton {
     position: absolute;
     bottom: 15%;
     right: 10%;
@@ -176,7 +176,7 @@ ul{
 
 .welcometo{
     position: absolute;
-    top: 7%;
+    top: 5%;
     left: 5%; 
 }
 
@@ -265,4 +265,25 @@ form input.submitBtn {
     margin: 5rem 15rem;
     padding: 2rem;
     border: 2px solid black;
+}
+
+/* ABOUT US */
+#beginings{
+    border: 2px solid black;
+    margin: 1rem auto;
+    background-color: #c9e99f;
+    text-align: center;
+    padding: 1rem;
+    width: 75%;
+    font-weight: 600;
+}
+
+#reachout{
+    border: 2px solid black;
+    margin: 1rem auto;
+    background-color: #c9e99f;
+    text-align: center;
+    padding: 1rem;
+    width: 75%;
+    font-weight: 600;
 }
