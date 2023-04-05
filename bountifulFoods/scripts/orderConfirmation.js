@@ -13,3 +13,7 @@ document.querySelector('#yourinstructions').textContent = params.get("instructio
 
 let today = new Date()
 document.querySelector('#todaysdate').innerHTML = String(today).slice(0,10);
+
+function getCarbs(fruitName){
+    
+}
