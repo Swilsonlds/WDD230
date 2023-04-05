@@ -3,6 +3,13 @@
         flex-direction: row;
     }
 
+    .logo{
+        margin: 1rem;
+        grid-column: 0 / 1 ;
+        width: auto;
+
+    }
+
     /* #index-main{
         display: grid;
         grid-template-columns: 1fr 1fr;

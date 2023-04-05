@@ -18,9 +18,11 @@ body{
     border-bottom: 3px solid black;
 }
 
-#logo{
+.logo{
     margin: 1rem;
+    margin-left: 6rem;
     grid-column: 0 / 1 ;
+    width: 150%;
 }
 
 header nav{
@@ -69,6 +71,7 @@ ul{
 #social-logos{
     grid-column: 3/4;
     text-align: center;
+    margin: .8rem;
 }
 
 #social-logos img{
