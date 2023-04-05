@@ -263,9 +263,11 @@ form input.submitBtn {
 #formAnswers{
     background-color: #c9e99f;
     text-align: center;
-    margin: 5rem 15rem;
+    margin: 5rem auto;
     padding: 2rem;
     border: 2px solid black;
+    min-width: auto;
+    max-width: 30rem;
 }
 
 /* ABOUT US */
