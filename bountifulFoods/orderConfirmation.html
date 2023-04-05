@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/site.js" defer></script>
+    <script src="scripts/orderConfirmation.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="topHeader">
+            <img id="logo" src="images/logo.png" alt="logo">
+            <nav>
+                <ul id="navUl">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  class="active" href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div id="social-logos">
+              <img src="images/facebook.png" alt="facebook logo">
+              <img src="images/instagram.png" alt="instagram logo">
+              <img src="images/twitter.png" alt="twitter logo">
+          </div>
+        </div>
+    </header> 
+    <main id="orderConfirmation-main">
+      <section id="formAnswers">
+        <h2>Thanks for your order!</h2>
+        <p>Your name is <span id="yourname"></span>.</p>
+        <p>Your email is <span id="youremail"></span>.</p>
+        <p>Your phone is <span id="yourphone"></span>.</p>
+        <p>The fruits you selected are <span id="fruit1"></span>, <span id="fruit2"></span>, and <span id="fruit3"></span>.</p>
+        <p>Your special instructions: <span id="yourinstructions"></span>.</p>
+        <p>Your order was placed on <span id="todaysdate"></span>.</p>
+        <p>Total carbs: <span id="carbs"></span></p>
+        <p>Total protein: <span id="protein"></span></p>
+        <p>Total fat: <span id="fat"></span></p>
+        <p>Total sugar: <span id="sugar"></span></p>
+        <p>Total calories: <span id="calories"></span></p>
+      </section>
+    </main> 
+    <footer>
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Logo">
+          </div>
+          <div class="footer-contact">
+            <h3>Bountiful Foods</h3>
+            <p>123 Main Street<br>Carlsbad, CA 92008</p>
+            <p><a href="info@MountainCreekChamber.org">info@BountifulFoods.org</a></p>
+            <p>760-777-7777</p>
+          </div>
+          <div class="footer-map">
+            <p><img src="./images/googlemaps.png" alt="google map"></p>
+            <a href="https://www.google.com/maps/@47.1730799,-122.1218592,17.89z" target="_blank">Location Map</a>
+          </div>
+        </div>
+        <div class="footer-base">
+          <p><span id="currentyear"></span>Last Updated: <span id="lastmodified"></span></p>
+        </div>
+      </footer> 
+</body>
+</html>

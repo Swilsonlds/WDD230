@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body{
+    font-family: 'Gotu', sans-serif;
+    background-color: rgb(231, 251, 220);
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+.topHeader{
+    display: grid;    
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #f6bb68;
+    border-bottom: 3px solid black;
+}
+
+#logo{
+    margin: 1rem;
+    grid-column: 0 / 1 ;
+}
+
+header nav{
+    display: inline;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+a:hover{
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.active{
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+
+ul{
+    list-style-type: none;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#navUl li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+#social-logos{
+    grid-column: 3/4;
+    text-align: center;
+}
+
+#social-logos img{
+    margin: auto;
+}
+
+/* FOOTER */
+.footer-top{
+    display: grid;    
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #f6bb68;
+    font-weight: 700;
+    border-top: 3px solid black;
+}
+
+.footer-logo{
+    grid-column: 1/2;
+}
+
+.footer-contact{
+    grid-column: 2/3;
+}
+
+.footer-map{
+    grid-column: 3/4;
+}
+
+.footer-base{
+    text-align: center;
+}
+
+.footer-base p{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(228, 201, 128);
+    color: black;
+    font-weight: 700;
+}
+
+/* BODY */
+#welcome{
+    border: 2px solid black;
+    margin: 1rem auto;
+    background-color: #c9e99f;
+    text-align: center;
+    padding: 1rem;
+    width: 75%;
+    font-weight: 600;
+}
+#welcome img{
+    width: 60%;
+}
+
+#welcome p{
+    max-width: 80%;
+    margin: 1rem auto;
+}
+
+#weather{
+    text-align: center;
+    background-color: #c9e99f;
+    margin: 1rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    width: 75%;
+}
+
+#weatherBox{
+    text-align: center;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#weatherBox > div{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: .5rem;
+    margin: .5rem;
+    flex-basis: 14rem;
+}
+
+.herodiv{
+    margin: 10px auto;
+    position: relative;
+}
+
+.picbutton button{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    background-color: rgb(228, 201, 128);
+    color: black;
+    border: 2px solid black;
+    padding: 25px;
+    font-weight: 800;
+}
+
+.welcometo{
+    position: absolute;
+    top: 7%;
+    left: 5%; 
+}
+
+.Hero{
+    margin: 10px auto;
+    padding: 10px;
+    width: 75%;
+
+}
+
+.herodiv img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+/* FRESH PAGE */
+form fieldset{
+    margin: 2rem auto;
+    border: 1px solid black;
+    max-width: 40%;
+    background-color:#c9e99f ;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 22rem;
+    width: 75%;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: 2px solid black;
+    background-color: rgb(228, 201, 128);
+    color:black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    min-width: 1rem;
+    max-width: 20rem;
+}
+
+.first-fieldset h3{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.second-fieldset {
+    margin-top: 0;
+}
+
+#description{
+    height:6rem;
+} 
+
+/* ORDER CONFIRMATION PAGE */
+#formAnswers{
+    background-color: #c9e99f;
+    text-align: center;
+    margin: 5rem 15rem;
+    padding: 2rem;
+    border: 2px solid black;
+}

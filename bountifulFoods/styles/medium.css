@@ -1,0 +1,25 @@
+@media screen and (min-width: 600px){
+    ul{
+        flex-direction: row;
+    }
+
+    /* #index-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    #welcome{
+        grid-row: 0/1;
+    }
+
+    .Hero{
+        grid-row: 1/2;
+    }
+
+    #weather{
+        grid-column: 0/2;
+        grid-row: 0/1;
+    } */
+
+}
